@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Header test 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <header>
+    <h1>
+        Expensify
+    </h1>
+    <NavLink
+        activeClassName="selected"
+        exact={true}
+        to="/"
+    >
+        Dashboard
+    </NavLink>
+    <NavLink
+        activeClassName="selected"
+        to="/create"
+    >
+        Create Expense
+    </NavLink>
+</header>,
+  "nodes": Array [
+    <header>
+      <h1>
+            Expensify
+      </h1>
+      <NavLink
+            activeClassName="selected"
+            exact={true}
+            to="/"
+      >
+            Dashboard
+      </NavLink>
+      <NavLink
+            activeClassName="selected"
+            to="/create"
+      >
+            Create Expense
+      </NavLink>
+</header>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_didScheduleRenderPhaseUpdate": false,
+    "_dispatcher": Object {
+      "readContext": [Function],
+      "useCallback": [Function],
+      "useContext": [Function],
+      "useDebugValue": [Function],
+      "useDeferredValue": [Function],
+      "useEffect": [Function],
+      "useImperativeHandle": [Function],
+      "useLayoutEffect": [Function],
+      "useMemo": [Function],
+      "useReducer": [Function],
+      "useRef": [Function],
+      "useResponder": [Function],
+      "useState": [Function],
+      "useTransition": [Function],
+    },
+    "_element": <Header />,
+    "_firstWorkInProgressHook": null,
+    "_forcedUpdate": false,
+    "_instance": null,
+    "_isReRender": false,
+    "_newState": null,
+    "_numberOfReRenders": 0,
+    "_renderPhaseUpdates": null,
+    "_rendered": <header>
+      <h1>
+            Expensify
+      </h1>
+      <NavLink
+            activeClassName="selected"
+            exact={true}
+            to="/"
+      >
+            Dashboard
+      </NavLink>
+      <NavLink
+            activeClassName="selected"
+            to="/create"
+      >
+            Create Expense
+      </NavLink>
+</header>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "_workInProgressHook": null,
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Header />,
+}
+`;
