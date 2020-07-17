@@ -12,9 +12,8 @@ import 'normalize.css/normalize.css'
 import moment from 'moment'
 
 const store = configureStore();
-
-
-
+   
+console.log('test')
 const jsx = (
    <Provider store={store}>
       <AppRouter/>
